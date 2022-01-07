@@ -1,0 +1,1 @@
+SELECT * FROM pessoas_controle_system.pessoas;
