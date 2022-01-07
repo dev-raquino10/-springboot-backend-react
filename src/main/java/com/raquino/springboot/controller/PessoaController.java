@@ -62,7 +62,7 @@ public class PessoaController {
 		return ResponseEntity.ok(updatedPessoa);
 	}
 	
-	// delete pessoa rest api
+	// delete Pessoa rest api
 	@DeleteMapping("/pessoas/{id}")
 	public ResponseEntity<Map<String, Boolean>> deletePessoa(@PathVariable Long id){
 		Pessoa pessoa = pessoaRepository.findById(id)
